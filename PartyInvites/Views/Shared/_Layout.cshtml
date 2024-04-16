@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script src="~/Scripts/knockout-3.5.1.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <title>@Page.Title</title>
+    @RenderSection("head", required: false)
+<style>
+    body{padding-top: 10px;}
+</style>
+</head>
+<body class="container">
+    @RenderBody()
+</body>
+</html>
